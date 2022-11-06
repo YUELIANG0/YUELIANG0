@@ -1,0 +1,42 @@
+ import java.util.Scanner;
+ public class Zuoye5{
+ public static void main(String[] args){
+ Scanner sc=new Scanner(System.in);
+ System.out.println("请输入一个整数")；
+ int num = sc.nextInt();
+ if(num%2==0){
+ System.out.println("这是一个偶数");
+ }else{
+ System.out.println("这是一个奇数");
+ }
+ int s1,s2;
+ System.out.println("请输入第一个整数")；
+ s1 = sc.nextInt();
+ System.out.println("请输入第二个整数");
+ s2 = sc.nextInt();
+ int max = 0;
+ if(s1>s2){
+ max = s1;
+ System.out.println("这两个整数的最大值为"+max);
+}else{
+max = s2;
+System.out.println("这两个整数的最大值为"+max);
+}
+int s3;
+System.out.println("请输入一个整数");
+s3 = sc.nextInt();
+if(s1%3==0){
+System.out.println(s3+"是三的倍数");
+}else{
+System.out.println(s3+"不是三的倍数");
+}
+int s4;
+System.out.println("请输入一个整数");
+s4 = sc.nextInt();
+if(s1%3==0){
+System.out.println(s4+"这个数是三的倍数");
+}else if (s4%7==0){
+System.out.println(s4+"这个数是七的倍数")；
+}
+}
+}
